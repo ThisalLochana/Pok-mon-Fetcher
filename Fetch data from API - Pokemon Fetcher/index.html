@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enter a Pokemon name or select from below</h1>
+    <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+    <h1>or</h1>
+    <select id="pokemonSelect">
+        <option value="">Select a Pokemon</option>
+        <option value="pikachu">Pikachu</option>
+        <option value="charizard">Charizard</option>
+        <option value="bulbasaur">Bulbasaur</option>
+        <option value="squirtle">Squirtle</option>
+        <option value="jigglypuff">Jigglypuff</option>
+    </select>
+    <button onclick="fetchData()">Fetch Pokemon</button><br>
+    <h5 id="text"></h5>
+    <img src="" id="pokemonSprite" style="display: none" alt="Pokemon Sprite">
+    
+    <script src="index.js"></script>
+</body>
+</html>
